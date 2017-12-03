@@ -1,0 +1,246 @@
+html{
+	position: relative;
+}
+
+
+body {
+	background-color: #ffffff;
+	background-image: url('../images/green_dust_scratch_@2X.png');
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	margin: 0 0 100px;
+}
+
+header {
+	background-color: #ffffff;
+	border-bottom-style: solid;
+	border-bottom-color: #cccccc;
+	border-bottom-width: 1px;
+	padding: 40px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	font-size: 20px;
+}
+
+footer {
+	background-color: #666666;
+	border-top-style: solid;
+	border-top-color: #4aaaa5;
+	border-top-width: 10px;
+	margin-top: 20px;
+	text-align: center;
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	bottom: -200px;
+	left: 0;
+	color: #999999;
+	display: block;
+	padding: 10px;
+}
+
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #ffffff;
+	background-color:#4aaaa5;
+	width: 20%;
+	height: 80px;
+	margin-right: 440px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+	line-height: 80px;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 85px;
+	overflow: auto;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+h1:hover {
+	background-color: #ffffff;
+	color: #4aaaa5;
+}
+
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	margin-top: 0;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.content {
+	border-style: solid;
+	border-color: #dddddd;
+	border-width: 1px;
+	width: 610px;
+	line-height: 2.0;
+	position: relative;
+	top: 100px;
+	left: 80px;
+	bottom: 100px;
+	background-color: #fff;
+	margin-bottom: 20px;
+	padding: 20px;
+
+}
+
+.nav {
+	position: fixed;
+	top: 0;
+	left: 773px;
+	line-height: 80px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #4aaaa5;
+	text-decoration: underline;
+}
+
+.social {
+	position: absolute;
+	left: 773px;
+	top: 100px;
+	width: 220px;
+	padding: 20px;
+	border-style: solid;
+	border-color: #dddddd;
+	border-width: 1px;
+	line-height: 2.0;
+	background-color: #fff;
+}
+
+#profile {
+	float: left;
+	max-width: 250px;
+	padding: 10px;
+}
+
+#linkedin {
+	height: 50px;
+	margin: 0 auto;
+}
+
+#linkedin:hover {
+   -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+
+#stackoverflow {
+	height: 50px;
+	margin: 0 auto;
+}
+
+#stackoverflow:hover {
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+
+#github {
+	height: 50px;
+	margin: 0 auto;
+}
+
+#github:hover {
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+
+.projectimg {
+	margin: 15px;
+	display: inline;
+
+}
+
+#project1 {
+	text-align: center;
+	width: 200px;
+	padding: 5px 0 5px 0;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	display: inline-block;
+	position: absolute;
+	top: 255px;
+	left: 35px;
+}
+
+#project2 {
+	text-align: center;
+	width: 200px;
+	padding: 5px 0 5px 0;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	display: inline-block;
+	position: absolute;
+	top: 255px;
+	left: 269px;
+}
+
+#project3 {
+	text-align: center;
+	width: 200px;
+	padding: 5px 0 5px 0;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	display: inline-block;
+	position: absolute;
+	top: 495px;
+	left: 35px;
+}
+
+#project4 {
+	text-align: center;
+	width: 200px;
+	padding: 5px 0 5px 0;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	display: inline-block;
+	position: absolute;
+	top: 495px;
+	left: 269px;
+}
+
+#project5 {
+	text-align: center;
+	width: 200px;
+	padding: 5px 0 5px 0;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	display: inline-block;
+	position: absolute;
+	top: 735px;
+	left: 35px;
+}
+
+#project6 {
+	text-align: center;
+	width: 200px;
+	padding: 5px 0 5px 0;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	display: inline-block;
+	position: absolute;
+	top: 735px;
+	left: 269px;
+}
+
